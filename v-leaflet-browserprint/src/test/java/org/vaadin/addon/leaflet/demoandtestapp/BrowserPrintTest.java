@@ -13,7 +13,7 @@ public class BrowserPrintTest extends AbstractTest {
 
     @Override
     public String getDescription() {
-        return "Test browserprint control";
+        return "Test browser.print control";
     }
 
     private LMap leafletMap;
@@ -28,9 +28,9 @@ public class BrowserPrintTest extends AbstractTest {
         LBrowserPrint browserPrint = new LBrowserPrint();
         browserPrint.setPosition(ControlPosition.topleft);
         browserPrint.setTitle("Print the map");
-        browserPrint.setDocumentTitle("ARM Viewer Map");
+        browserPrint.setDocumentTitle("Leaflet Map");
         browserPrint.setPrintModes(PrintMode.Landscape, PrintMode.Custom);
-        browserPrint.setPrintModesNames(null, "My Landscape", null, "Free select");
+        browserPrint.setPrintModesNames(null, "My Landscape", null, "Area Select");
         leafletMap.addControl(browserPrint);
 
         LMarker marker1 = new LMarker(60.4525, 22.301);
