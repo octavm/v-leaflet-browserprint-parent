@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vaadin.addons</groupId>
     <artifactId>v-leaflet-browserprint</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.6</version>
     <name>v-leaflet-browserprint</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <vaadin.version>7.7.6</vaadin.version>
-        <v-leaflet-version>1.0.7-SNAPSHOT</v-leaflet-version>
-        <g-leaflet-browserprint-version>1.0.0</g-leaflet-browserprint-version>
+        <vaadin.version>8.9.0</vaadin.version>
+        <v-leaflet-version>2.0.10</v-leaflet-version>
+        <g-leaflet-browserprint-version>1.0.6</g-leaflet-browserprint-version>
     </properties>
 
     <organization>

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vaadin.addons</groupId>
     <artifactId>v-leaflet-browserprint-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.6</version>
     <packaging>pom</packaging>
 
     <!--<scm>-->
